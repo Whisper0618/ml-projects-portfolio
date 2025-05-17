@@ -1,49 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Machine Learning Projects Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    h1 {
+      color: #343a40;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #495057;
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      background-color: #ffffff;
+      padding: 20px;
+      border: 1px solid #dee2e6;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #6c757d;
+    }
+  </style>
 </head>
 <body>
   <h1>Machine Learning Projects Portfolio</h1>
   <p>This page showcases multiple machine learning projects developed using Python, Jupyter Notebook, and scikit-learn.</p>
 
-  <hr>
+  <div class="section">
+    <h2>1. Classification</h2>
+    <p>
+      A supervised learning pipeline applying classification algorithms to structured datasets.
+      Models used include KNN, Decision Tree, Random Forest, and SVM. Includes data cleaning,
+      model training, evaluation (AUC, confusion matrix).
+    </p>
+    <ul>
+      <li><a href="https://github.com/Whisper0618/ml-projects-portfolio/tree/main/classification" target="_blank">View on GitHub</a></li>
+    </ul>
+  </div>
 
-  <h2>1. Classification</h2>
-  <p>
-    A supervised learning pipeline applying classification algorithms to structured datasets. Models used include:
-    K-Nearest Neighbors, Decision Tree, Random Forest, and Support Vector Machine (SVM). The pipeline covers data preprocessing,
-    train-test split, model comparison using accuracy, confusion matrix, and AUC.
-  </p>
-  <ul>
-    <li><a href="https://github.com/Whisper0618/ml-projects-portfolio/tree/main/classification" target="_blank">View on GitHub</a></li>
-  </ul>
+  <div class="section">
+    <h2>2. Clustering</h2>
+    <p>
+      Unsupervised learning projects using K-Means and PCA to discover patterns in health-related datasets (injury, death, residence).
+      The projects explore dimensionality reduction and cluster evaluation.
+    </p>
+    <ul>
+      <li><a href="https://github.com/Whisper0618/ml-projects-portfolio/tree/main/clustering" target="_blank">View on GitHub</a></li>
+    </ul>
+  </div>
 
-  <h2>2. Clustering</h2>
-  <p>
-    An unsupervised learning project to explore patterns in injury, death, and residence datasets using K-Means and PCA.
-    The goal was to reveal hidden structure in unlabeled data through clustering and dimensionality reduction techniques.
-  </p>
-  <ul>
-    <li><a href="https://github.com/Whisper0618/ml-projects-portfolio/tree/main/clustering" target="_blank">View on GitHub</a></li>
-  </ul>
+  <div class="section">
+    <h2>3. Anomaly Detection</h2>
+    <p>
+      A semi-supervised project using Isolation Forest to detect outliers. Includes feature scaling,
+      anomaly visualization and interpretation of abnormal patterns in structured data.
+    </p>
+    <ul>
+      <li><a href="https://github.com/Whisper0618/ml-projects-portfolio/tree/main/anomaly" target="_blank">View on GitHub</a></li>
+    </ul>
+  </div>
 
-  <h2>3. Anomaly Detection</h2>
-  <p>
-    A semi-supervised learning project using Isolation Forest to detect anomalies in structured datasets.
-    Includes preprocessing, feature scaling, and visualization of detected outliers in feature space.
-  </p>
-  <ul>
-    <li><a href="https://github.com/Whisper0618/ml-projects-portfolio/tree/main/anomaly" target="_blank">View on GitHub</a></li>
-  </ul>
-
-  <hr>
-
-  <h3>Author</h3>
-  <p>
-    <a href="https://github.com/Whisper0618" target="_blank">GitHub: Whisper0618</a><br>
-    Contact available upon request.
-  </p>
+  <div class="footer">
+    <p><a href="https://github.com/Whisper0618" target="_blank">GitHub: Whisper0618</a><br>
+    Contact available upon request.</p>
+  </div>
 </body>
 </html>
